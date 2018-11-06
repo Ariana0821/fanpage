@@ -1,5 +1,6 @@
 html {
     height: 100%;
+     background-image: url("http://www.publicdomainpictures.net/pictures/120000/nahled/vintage-flowers-wallpaper-pattern.jpg");
 }
 
 body {
@@ -8,6 +9,21 @@ body {
 }
 a {
     text-decoration: none;
+}
+.aboutMain{
+    display: auto;
+    justify-content: space-between;
+}
+.leftPane {
+    display: flex;
+    justify-content: flext-start;
+    background-color: pink;
+    font-size: 30px;
+}
+.rightPane{
+    display:flex;
+    justify-content:flex-end;
+    background-color: pink;
 }
 
 .home {
@@ -36,4 +52,21 @@ h1 {
 .headerText {
     color:black;
     font-size: 30px;
+}
+.gallery{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.thumbnail {
+    margin: 30px;
+    border: solid #C57BFF  ;
+    width: 300px;
+    height: 300px;
+}
+
+.thumbnail-image {
+    height: 100%;
+    width: 100%;
 }
